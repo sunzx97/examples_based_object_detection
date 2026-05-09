@@ -1,0 +1,37 @@
+# Model weights and pre-trained models
+pretrain/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Results and outputs
+detection_crops/
+detection_masks/
+save_video_crop_img_filtered/
+SAM3_Detection_Results/
+crop_object/
+
+# Temporary files
+*.tmp
+temp*.py
